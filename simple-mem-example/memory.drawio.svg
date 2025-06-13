@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="120" height="60">
   <g id="memory">
     <rect x="0" y="0" width="120" height="60" fill="#ffffff" stroke="#000000" />
-    <text x="60" y="20" font-size="12" text-anchor="middle" fill="#000">Memory</text>
     <text id="memory" x="60" y="35" font-size="14" text-anchor="middle" fill="#000000">0</text>
   </g>
 </svg>
