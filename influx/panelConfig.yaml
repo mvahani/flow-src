@@ -148,7 +148,7 @@ cellColorMappings:
 # level and the cell-attribute level.
 #
 # Valid values are undefined, "last", "lastNotNull"
-datapoint: "last"
+datapoint: "lastNotNull"
 
 # This defines the default color gradientMode. It defines the default value on cell labelColor.gradientMode
 # and fillColor.gradientMode for when the field is undefined. Values are "hue" and "none" with
@@ -183,7 +183,7 @@ cells:
     # the Grafana query name, but to a time series returned by a query (e.g. for InfluxDB, that would
     # be the 'Alias' name).
     # It can be overriden on an attribute by attribute basis.
-    dataRef: "test-data-large-sin"
+    dataRef: "influx-load-tester-metrics-per-sec"
 
     # Version 1.16.0 onwards: Optional alternative data source for the cell taken from the bespoke drive
     # scope. When set it's used in preference to the dataRef value.
@@ -556,7 +556,7 @@ cells:
       # Optional dataRef additions. The cell-level dataRef and all dataRefs listed here will be present on the
       # data object given to the 'renderFn'.
       dataRefs:
-        - "test-data-large-sin"
+        - "influx-load-tester-metrics-per-sec"
         - "test-data-large-cos"
 
       # Optional datapoint override. Requires corresponding attribute level dataRefs override to be applied. Note that
@@ -569,7 +569,7 @@ cells:
       # be used in the formulas for this widget.
       constants:
         # variable-name -> constant value pairs
-        clockDataRef: "test-data-large-sin"
+        clockDataRef: "influx-load-tester-metrics-per-sec"
 
       # Optional array of mathjs formulas. Each formula will be called in array order and values set within the formula
       # will be available to downstream formulas in this namespace. The formula passed in receives the scope object
