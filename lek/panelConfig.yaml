@@ -1,0 +1,14 @@
+---
+
+gradientMode: "hue"
+cellIdPreamble: "cell-"
+cells: 
+  coputer:
+    dataRef: "metrics"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      thresholdsRef: "queuedepth"
+    linkRef: "grafana-home"
