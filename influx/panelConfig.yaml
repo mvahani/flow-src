@@ -102,3 +102,4 @@ cells:
     labelColor:
       thresholdsRef: "queuelatency"
     linkRef: "grafana-home"
+    # GUrka
