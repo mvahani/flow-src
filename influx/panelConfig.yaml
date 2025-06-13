@@ -203,7 +203,7 @@ cells:
     # changes its value. It does not create a text element if it is not already present in the cell.
     label:
       # Optional attribute level override for the associated time-series.
-      dataRef: "test-data-large-cos"
+      dataRef: "telegraf-write-time"
 
       # Version 1.16.0 onwards: Optional alternative data source for the cell taken from the bespoke drive
       # scope. When set it's used in preference to the dataRef value.
@@ -258,7 +258,7 @@ cells:
     # time-series value. If no adjustment is wanted the field should be omitted.
     labelColor:
       # Optional attribute level override for the associated time-series.
-      dataRef: "test-data-large-cos"
+      dataRef: "telegraf-write-time"
 
       # Version 1.16.0 onwards: Optional alternative data source for the cell taken from the bespoke drive
       # scope. When set it's used in preference to the dataRef value.
@@ -338,7 +338,7 @@ cells:
     # colored based on the time-series value. If no adjustment is wanted the field should be omitted.
     strokeColor:
       # See labelColor
-      dataRef: "test-data-large-cos"
+      dataRef: "telegraf-write-time"
 
       # Version 1.16.0 onwards: Optional alternative data source for the cell taken from the bespoke drive
       # scope. When set it's used in preference to the dataRef value.
@@ -383,7 +383,7 @@ cells:
     # time-series value. If no adjustment is wanted the field should be omitted.
     fillColor:
       # See labelColor
-      dataRef: "test-data-large-cos"
+      dataRef: "telegraf-write-time"
 
       # Version 1.16.0 onwards: Optional alternative data source for the cell taken from the bespoke drive
       # scope. When set it's used in preference to the dataRef value.
@@ -447,7 +447,7 @@ cells:
     # with a static fill-color defined in the svg.
     fillLevel:
       # Optional attribute level override for the associated time-series.
-      dataRef: "test-data-large-cos"
+      dataRef: "telegraf-write-time"
 
       # Version 1.16.0 onwards: Optional alternative data source for the cell taken from the bespoke drive
       # scope. When set it's used in preference to the dataRef value.
@@ -481,7 +481,7 @@ cells:
     # left corner. The panel options also allows the initial state to be selectable.
     flowAnimation:
       # Optional attribute level override for the associated time-series.
-      dataRef: "test-data-large-cos"
+      dataRef: "telegraf-write-time"
 
       # Version 1.16.0 onwards: Optional alternative data source for the cell taken from the bespoke drive
       # scope. When set it's used in preference to the dataRef value.
@@ -557,7 +557,7 @@ cells:
       # data object given to the 'renderFn'.
       dataRefs:
         - "influx-load-tester-metrics-per-sec"
-        - "test-data-large-cos"
+        - "telegraf-write-time"
 
       # Optional datapoint override. Requires corresponding attribute level dataRefs override to be applied. Note that
       # data is gathered on a namespace basis so where multiple values exist within a namespace the most permissive of
