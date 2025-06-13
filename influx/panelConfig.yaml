@@ -3,8 +3,8 @@
 gradientMode: "hue"
 cellIdPreamble: "cell-"
 cells: 
-  telegraf-write-metrics:
-    dataRef: "telegraf-write-time"
+  telegraf-write-time:
+    dataRef: "telegraf-write-metrics"
     label:
       separator: "cr"
       units: "none"
