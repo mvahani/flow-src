@@ -3,7 +3,7 @@
 gradientMode: "hue"
 cellIdPreamble: "cell-"
 cells: 
-  inhouse_queue_depth:
+  telegraf-write-metrics:
     dataRef: "telegraf-write-time"
     label:
       separator: "cr"
