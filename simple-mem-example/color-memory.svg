@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="151" height="101" viewBox="0 0 151 101">
-  <g id="memory">
+  <g id="mem_group">
     <rect x="0" y="0" width="150" height="100" fill="#f8cecc" stroke="#b85450"/>
-    <text id="memory" x="75" y="55" font-family="Helvetica" font-size="14" fill="#000000" text-anchor="middle" alignment-baseline="middle">memory</text>
+    <text id="memory" x="75" y="55" font-family="Helvetica" font-size="14" fill="#000000" text-anchor="middle" alignment-baseline="middle">0</text>
   </g>
 </svg>
 
