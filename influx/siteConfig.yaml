@@ -37,9 +37,9 @@ thresholds:
     - {color: "amber", level: 30}
     - {color: "red", level: 60}
   metrics-per-sec:
-    - {color: "green", level: 3100}
-    - {color: "amber", level: 3200}
-    - {color: "red", level: 3500}
+    - {color: "green", level: 706948}
+    - {color: "amber", level: 986771.3}
+    - {color: "red", level: 1788466.3}
   dbtrans:
     - {color: "green", level: 200}
     - {color: "amber", level: 500}
