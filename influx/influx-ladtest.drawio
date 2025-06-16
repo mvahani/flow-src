@@ -50,7 +50,7 @@
         </object>
         <object label="Mem usage" id="mem-usage">
           <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-            <mxGeometry x="345" y="410" width="90" height="30" as="geometry" />
+            <mxGeometry x="349" y="416" width="90" height="30" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="k-FW7ElJ1eN7muQu-FQ2-20" value="Controller script" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;" parent="1" vertex="1">
