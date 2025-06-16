@@ -31,8 +31,8 @@ cells:
     labelColor:
       thresholdsRef: "mem-usage"
     linkRef: "grafana-home"
-  arrow:
-    dataRef: "telegraf-arrow"
+  telegraf-arrow:
+    dataRef: "arrow"
     label:
       separator: "cr"
       units: "none"
