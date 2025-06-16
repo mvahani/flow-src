@@ -1,0 +1,5 @@
+# Vim swp files
+.*.swp
+
+# draw.io backup files
+.$*.bkp
