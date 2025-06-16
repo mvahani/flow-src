@@ -7,7 +7,7 @@ cells:
     dataRef: "telegraf-write-time"
     label:
       separator: "cr"
-      units: "none"
+      units: "ops"
       decimalPoints: 0
     labelColor:
       thresholdsRef: "write-time"
@@ -25,7 +25,7 @@ cells:
     dataRef: "telegraf-mem-usage"
     label:
       separator: "cr"
-      units: "%"
+      units: "pps"
       decimalPoints: 0
     labelColor:
       thresholdsRef: "queuedepth"
