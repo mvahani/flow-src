@@ -8,7 +8,7 @@ cells:
     label:
       separator: "cr"
       units: "ns"
-      decimalPoints: 0
+      decimalPoints: 2
     labelColor:
       thresholdsRef: "write-time"
     linkRef: "grafana-home"
