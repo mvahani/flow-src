@@ -28,7 +28,7 @@ variableThresholdScalars:
     - {variableValuePattern: "dev", thresholdScalar: 0.2, cellIdPatternScope: [".*box.*"]}
 
 thresholds:
-  queuecount:
+  write-time:
     - {color: "green", level: 10}
     - {color: "amber", level: 30}
     - {color: "red", level: 60}

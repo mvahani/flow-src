@@ -10,7 +10,7 @@ cells:
       units: "none"
       decimalPoints: 0
     labelColor:
-      thresholdsRef: "queuedepth"
+      thresholdsRef: "write-time"
     linkRef: "grafana-home"
   metrics-per-sec:
     dataRef: "telegraf-metrics-per-sec"
