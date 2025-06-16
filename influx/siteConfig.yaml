@@ -33,9 +33,9 @@ variableThresholdScalars:
 
 thresholds:
   metrics-per-sec:
-    - {color: "green", level: 10}
-    - {color: "orange", level: 30}
-    - {color: "red", level: 60}
+    - {color: "green", level: 3100}
+    - {color: "orange", level: 3300}
+    - {color: "red", level: 3500}
   write-time:
     - {color: "green", level: 706948}
     - {color: "amber", level: 986771.3}
