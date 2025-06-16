@@ -7,7 +7,7 @@ cells:
     dataRef: "telegraf-write-time"
     label:
       separator: "cr"
-      units: "ops"
+      units: "ns"
       decimalPoints: 0
     labelColor:
       thresholdsRef: "write-time"
