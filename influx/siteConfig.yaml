@@ -34,12 +34,12 @@ variableThresholdScalars:
 thresholds:
   metrics-per-sec:
     - {color: "green", level: 10}
-    - {color: "amber", level: 30}
+    - {color: "orange", level: 30}
     - {color: "red", level: 60}
   write-time:
     - {color: "green", level: 706948}
     - {color: "amber", level: 986771.3}
-    - {color: "red", level: 1788466.3}
+    - {color: "red", level: 178846600.3}
   dbtrans:
     - {color: "green", level: 200}
     - {color: "amber", level: 500}
