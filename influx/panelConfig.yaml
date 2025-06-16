@@ -7,7 +7,7 @@ cells:
   metrics-per-sec:
     dataRef: "telegraf-metrics-per-sec"
     label:
-      separator: "cr"
+      separator: "space"
       units: "none"
       decimalPoints: 0
     labelColor:
