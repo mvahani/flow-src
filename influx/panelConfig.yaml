@@ -25,7 +25,7 @@ cells:
     dataRef: "telegraf-mem-usage"
     label:
       separator: "cr"
-      units: "pps"
+      units: "percent"
       decimalPoints: 0
     labelColor:
       thresholdsRef: "mem-usage"
