@@ -32,11 +32,11 @@ variableThresholdScalars:
     - {variableValuePattern: "dev", thresholdScalar: 0.2, cellIdPatternScope: [".*box.*"]}
 
 thresholds:
-  write-time:
+  metrics-per-sec:
     - {color: "green", level: 10}
     - {color: "amber", level: 30}
     - {color: "red", level: 60}
-  metrics-per-sec:
+  write-time:
     - {color: "green", level: 706948}
     - {color: "amber", level: 986771.3}
     - {color: "red", level: 1788466.3}
