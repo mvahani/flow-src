@@ -1,5 +1,6 @@
 ---
 
+
 gradientMode: "hue"
 cellIdPreamble: "cell-"
 cells: 
@@ -30,3 +31,11 @@ cells:
     labelColor:
       thresholdsRef: "mem-usage"
     linkRef: "grafana-home"
+  arrow:
+    dataRef: "telegraf-arrow"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 2
+    labelColor:
+      thresholdsRef: "mem-usage"
