@@ -3,15 +3,6 @@
 gradientMode: "hue"
 cellIdPreamble: "cell-"
 cells: 
-  write-time:
-    dataRef: "telegraf-write-time"
-    label:
-      separator: "cr"
-      units: "ns"
-      decimalPoints: 2
-    labelColor:
-      thresholdsRef: "write-time"
-    linkRef: "grafana-home"
   metrics-per-sec:
     dataRef: "telegraf-metrics-per-sec"
     label:
@@ -20,6 +11,15 @@ cells:
       decimalPoints: 0
     labelColor:
       thresholdsRef: "queuecount"
+    linkRef: "metrics-per-sec"
+  write-time:
+    dataRef: "telegraf-write-time"
+    label:
+      separator: "cr"
+      units: "ns"
+      decimalPoints: 2
+    labelColor:
+      thresholdsRef: "write-time"
     linkRef: "grafana-home"
   mem-usage:
     dataRef: "telegraf-mem-usage"
