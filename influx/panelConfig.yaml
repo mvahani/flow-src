@@ -10,7 +10,7 @@ cells:
       units: "none"
       decimalPoints: 0
     labelColor:
-      thresholdsRef: "queuecount"
+      thresholdsRef: "metrics-per-sec"
     linkRef: "metrics-per-sec"
   write-time:
     dataRef: "telegraf-write-time"
@@ -20,7 +20,7 @@ cells:
       decimalPoints: 2
     labelColor:
       thresholdsRef: "write-time"
-    linkRef: "grafana-home"
+    linkRef: "write-time"
   mem-usage:
     dataRef: "telegraf-mem-usage"
     label:
@@ -28,5 +28,5 @@ cells:
       units: "pps"
       decimalPoints: 0
     labelColor:
-      thresholdsRef: "queuedepth"
+      thresholdsRef: "mem-usage"
     linkRef: "grafana-home"
