@@ -32,7 +32,7 @@ thresholds:
     - {color: "green", level: 10}
     - {color: "amber", level: 30}
     - {color: "red", level: 60}
-  queuedepth:
+  metrics-per-sec:
     - {color: "green", level: 200}
     - {color: "amber", level: 300}
     - {color: "red", level: 1500}
